@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+ }
+
+ .navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ }
+
+ .nav-logo{
+    height: 30px;
+    width: 140px;
+    padding: 10px 5px 12px 5px ;
+ }
+
+ .search-select{
+  text-align: left;
+ }
+ 
+ .logo{
+    background-image: url("logo.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%; 
+ }
+
+ .nav-address{
+  padding: 10px 5px 10px 5px;
+ }
+
+ .nav-signin{
+  padding: 8px 5px 8px 5px ;
+ }
+
+ .return{
+  padding: 6px 5px 6px 5px ;
+ }
+
+ .nav-cart{
+  padding: 8px 5px 8px 5px ;
+ }
+
+ .border{
+   border: 1.5px solid transparent;
+
+ }
+
+ .border:hover{
+   border:1.5px solid white ;
+ }
+/* box2 */
+
+ .add1{
+     color: #cccccc;
+     font-family: Arial;
+     font-size: 0.8rem;
+     margin-left: 15px;
+ }
+
+ .add2{
+   font-size: 1rem;
+   color: white;
+   margin-left: 3px;
+   font-weight: 700px;
+
+ }
+ .add-icon{
+   display: flex;
+   align-items: center;
+ }
+
+ /* box3 */
+
+ .nav-search{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: pink;
+   width: 700px;
+   height: 40px;
+   border-radius: 4px;
+ }
+ .nav-search:hover{
+   border: 2px solid orange;
+ }
+
+ .search-select{
+   background-color: #e6e6e6;
+   color: #0f1111;
+   border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+   width: 50px;
+   text-align: center;
+   border: none;
+ }
+
+ 
+ .search-input{
+   width:100%;
+   font-size: 1rem;
+   border: none;
+ }
+ .search-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 47px;
+   font-size: 1.3rem;
+   background-color: #febd68;
+   color: black;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+
+
+ }
+
+ .nav-language{
+  width: 49px;
+  background-color: #0f1111;
+  color: #e6e6e6;
+  padding: 10px 4px 10px 4px;
+ }
+  /* box4 */
+ span{
+   font-size: 0.7rem;
+ }
+
+ .nav2{
+   font-size: 0.9rem;
+   font-weight: 700;
+ }
+
+/* box6 */
+
+ .nav-cart{
+   
+   font-size: 0.9;
+   font-weight: 700;
+ }
+ .nav-cart i {
+   font-size: 30px;
+    align-items: center;
+ }
+ /* panel */
+ 
+ .panel{
+  height: 39px;
+  background-color: #222f3d;
+  display: flex;
+   color: white;
+   align-items: center;  
+   justify-content: space-around;
+   font-size: 15px;
+
+ }
+ .panel-op p {
+  display: inline;
+  padding: 10px 5px;
+  margin: 5px 0px 6px;
+  height: 100%;
+ 
+ }
+ .panel-op{
+  width: 88%;
+ 
+ }
+ .panel-all{
+  font-weight: 700;
+  padding:10px 5px ;
+
+ }
